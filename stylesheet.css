@@ -4,7 +4,7 @@
     padding: 10px;
     background-color: #ff5722;
     margin: auto;
-    box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.6);
+    box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
 }
 
 #sidebar {
@@ -39,14 +39,22 @@
     background-color: #eeeeee;
     text-align: center;
     margin: 0;
-    box-shadow: inset 251px 0px 5px 0px rgba(0,0,0,0.6);
+    box-shadow: inset 251px 0px 5px 0px rgba(0, 0, 0, 0.6);
 }
 
 #content h1 {
     font-size: 3em;
     font-weight: bold;
     font-family: 'Noto Serif';
+    padding: 5px;
 }
+
+#content p {
+    font-family: 'Noto Serif';
+    padding: 3px;
+}
+
+
 
 html,
 body {
